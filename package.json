@@ -1,0 +1,23 @@
+{
+  "name": "pustaka-terbuka-frim",
+  "version": "1.0.0",
+  "description": "Perpustakaan Institut Penyelidikan Perhutanan Malaysia (FRIM) Bibliographic Dataset and Harvester for Pustaka Terbuka.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "validate-inbox": "node tools/validate-inbox.js",
+    "harvest": "node tools/harvesters/frim/harvester.js",
+    "harvest:sample": "node tools/harvesters/frim/harvester.js --max-records 10",
+    "harvest:full": "node tools/harvesters/frim/harvester.js --batch-size 1000 --delay 0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "private": false,
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "ajv-formats": "^3.0.1",
+    "fast-xml-parser": "^5.11.2"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "manifest_version": "1.0",
+  "source_code": "frim",
+  "agency_code": "FRIM",
+  "run_id": "2026-10-17T03-15-45Z",
+  "chunk_index": 1,
+  "total_records": 500,
+  "completed_at": "2026-10-17T03:15:47.187Z",
+  "harvester": {
+    "name": "frim-koha-harvester",
+    "version": "1.0.0"
+  },
+  "batches": [
+    {
+      "file": "batch_0.xml",
+      "records": 100,
+      "sha256": "b0ad0f955a85a77e293106ed0fd2be5d8e05a8ff2cbbed3943dadb9eb650e1de"
+    },
+    {
+      "file": "batch_1.xml",
+      "records": 100,
+      "sha256": "1cd47d912e7736bdef7ae37ca27f60a93b60985b2f42c4a9587ec7467947145b"
+    },
+    {
+      "file": "batch_2.xml",
+      "records": 100,
+      "sha256": "bd0e086694fe35f5638bde318f41ce26e6cfa5c7593bf6cef6543eedad2a3b05"
+    },
+    {
+      "file": "batch_3.xml",
+      "records": 100,
+      "sha256": "a614b3b4996df8e28d37e7f911c7dcfe0e7ff88297555625f81b056ca3ce86c7"
+    },
+    {
+      "file": "batch_4.xml",
+      "records": 100,
+      "sha256": "2ccfc4a8fe8b68bf42993d90765fd2975893628f875385d784269819acd3c360"
+    }
+  ]
+}
